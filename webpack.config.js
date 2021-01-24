@@ -43,7 +43,9 @@ module.exports = {
       name: "starter",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './Nav': './src/components/Nav.jsx',
+      },
       shared: {
         ...deps,
         react: {
