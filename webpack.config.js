@@ -40,7 +40,7 @@ module.exports = (_, argv) => ({
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "starter",
+      name: "consumer",
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
